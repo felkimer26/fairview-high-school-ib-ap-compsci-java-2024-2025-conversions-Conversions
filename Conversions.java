@@ -89,7 +89,7 @@ public class Conversions
             System.out.println("Enter Distance (Km): ");
             double Kilometers = keyboard.nextDouble();
             keyboard.nextLine();
-            double  Miles = Kilometers * 1.609;
+            double  Miles = Kilometers/1.609;
               System.out.println( Kilometers + " Kilometers is "+ String.format("%.2f", Miles ) + " Miles ");//unit name + other unit in quotes and converse
 
             //add the code to ask the user to enter Fahrenheit and then convert to Celsius
@@ -126,3 +126,4 @@ public class Conversions
         }
     }
 }
+
