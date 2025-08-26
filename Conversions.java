@@ -47,7 +47,7 @@ public class Conversions
             System.out.println("Enter Feet: ");
             double feet = keyboard.nextDouble();
             keyboard.nextLine();
-            double meters = feet / 3.86; //conversion of units
+            double meters = feet / 3.28; //conversion of units
             System.out.println( feet + " Feet is " +String.format("%.2f", meters) + " Meters ");//unit name + other unit in quotes and converse
 
             //add the code to ask the user to enter Fahrenheit and then convert to Celsius
@@ -57,7 +57,7 @@ public class Conversions
             System.out.println("Enter Meters: ");
             double meters = keyboard.nextDouble();
             keyboard.nextLine();
-            double  feet = meters * 3.86; //conversion of units
+            double  feet = meters * 3.28; //conversion of units
             System.out.println(meters + " Meters is " +String.format("%.2f", feet) + " Feet");//unit name + other unit in quotes and converse
 
             //add the code to ask the user to enter Fahrenheit and then convert to Celsius
